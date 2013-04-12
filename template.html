@@ -1,0 +1,183 @@
+<!--
+/** 
+ * @ (#) mo_home_page.jsp 
+ *
+ * Copyright (c) 2005 NJ Transit
+ * One Penn Plaza East
+ * Newark, NJ 06101
+
+ * THIS  UNPUBLISHED WORK,  FIRST CREATED  IN 2005  AND UPDATED THEREAFTER,
+ * IS PROTECTED  UNDER THE  COPYRIGHT LAWS  OF THE UNITED STATES  AND OF 
+ * OTHER COUNTRIES  THROUGHOUT THE WORLD. USE, DISASSEMBLY,  REPRODUCTION, 
+ * DISTRIBUTION,  ETC.  WITHOUT THE   EXPRESS  WRITTEN   CONSENT   OF  
+ * NJ TRANSIT IS PROHIBITED.  
+ * COPYRIGHT NJ TRANSIT 2005 ALL  RIGHTS RESERVED.  
+ * INFORMATION  CONTAINED   HEREIN  IS PROPRIETARY AND CONFIDENTIAL
+ * AND  IMPROPER USE OR DISCLOSURE MAY RESULT IN CIVIL AND PENAL SANCTIONS
+ *
+ * This is the home page for NJ Transit mobile website
+ * 
+ * @author  Arun Nunna
+ *
+ * @version 1.0
+ */
+ -->
+
+
+
+
+
+
+
+		
+
+
+
+
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>New Jersey Transit</title>
+		<meta content="New Jersey Transit, NJ TRANSIT, transportation, Mass Transit, commuting, trains, bus, New Jersey, schedules, fares, travel" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+		<meta name="Description" content="NJ TRANSIT is New Jersey's public transportation corporation. Its mission is to provide safe, reliable, convenient and cost-effective transit service with a skilled team of employees, dedicated to our customers' needs and committed to excellence" />
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"/>
+		<!-- <link href="http://www.njtransit.com/styles/styles_mobile.css" rel="stylesheet" type="text/css" />-->
+		
+			<style type="text/css">@import "http://www.njtransit.com/styles/styles_mobile_smart.css";</style>
+		
+
+	</head>
+	<body>
+
+<a href="mo_servlet.srv?hdnPageAction=HomePageTo"><div class="logo"><img border="0" src="http://www.njtransit.com/images/mo_njt_logo.jpg" alt="NJ Transit Logo"></div></a>
+
+
+<style>
+div#homepage-serious-adv {
+	background-color:#;
+	margin-bottom: 3px;
+}
+span#homepage-serious-adv-msg {
+	/*margin-left:3px;*/
+	display:block;
+}
+
+.homepage-serious-adv-msg {
+	color:#;
+	padding-left:3px;
+}
+
+.homepage-serious-adv-msg a{
+	color:#;
+}
+
+.btnTextSmall {
+	position: relative;
+	display: inline;
+	top: -1px;
+	font-size: 80%;
+}
+
+.btnText {
+	font-size: 90%;
+}
+</style>
+		
+
+
+		<div class="homeContainer">
+
+		
+		<div id="mobileBtnsTPHP">
+            	<a href="mo_servlet.srv?hdnPageAction=TripPlannerTo">
+              	<span class="schedBtn"></span>
+              	<span class="btnText">Trip Planner</span>
+              	<span class="listArrow"></span>
+            	</a><div class="button_last"></div>
+        </div>
+        
+		<div id="mobileBtnsTP2HP">
+		
+			<a href="mo_servlet.srv?hdnPageAction=TrainSchedulesTo"><span class="railBtn"></span><span class="btnText">Train Schedules &amp; Fares</span><span class="listArrow"></span></a><div class="button_last"></div>
+        </div>
+		<div id="mobileBtnsTP2HP">
+			<a href="mo_servlet.srv?hdnPageAction=BusSchedulesTo"><span class="busBtn"></span><span class="btnText">Bus Schedules (Point to Point)</span><span class="listArrow"></span></a><div class="button_last"></div>
+        </div>
+		<div id="mobileBtnsTP2HP">
+			<a href="mo_servlet.srv?hdnPageAction=LightRailSchedulesTo"><span class="lrBtn"></span><span class="btnText">Light Rail Schedules</span><span class="listArrow"></span></a><div class="button_last"></div>
+        </div>
+		<div id="mobileBtns5HP">
+			<a href="mo_servlet.srv?hdnPageAction=DvTo"><span class="dvBtn"></span><span class="btnText">DepartureVision <div class="btnTextSmall">(Real Time Train Status)</div></span><span class="listArrow"></span></a><div class="button_last"></div>
+		</div>
+	     <div id="mobileBtns2HP">
+            	<a href="http://mybusnow.njtransit.com/bustime/wireless/html/home.jsp">
+              	<span class="myBusNowBtn"></span>
+              	<span class="btnText">My Bus Now <div class="btnTextSmall">(Real Time Bus Service)</div></span>
+              	<span class="listArrow"></span>
+            	</a><div class="button_last"></div>
+        </div>
+	     <div id="mobileBtns2HP">
+            	<a href="mo_servlet.srv?hdnPageAction=MyBusTo">
+              	<span class="myBusBtn"></span>
+              	<span class="btnText">My Bus <div class="btnTextSmall">(Scheduled Bus Service)</div></span>
+              	<span class="listArrow"></span>
+            	</a><div class="button_last"></div>
+        </div>
+		
+		<div id="mobileBtns1HP">
+            	<a href="mo_servlet.srv?hdnPageAction=SnalTo">
+              	<span class="snalBtn"></span>
+              	<span class="btnText">Service Nearby</span>
+              	<span class="listArrow"></span>
+            	</a><div class="button_last"></div>
+        </div>
+        
+        <div id="mobileBtns2HP">
+			<a href="mo_servlet.srv?hdnPageAction=TrainAdvisoriesTo"><span class="advBtn"></span><span class="btnText">Alerts & Advisories</span><span class="listArrow"></span></a><div class="button_last"></div>
+        </div>
+		<div id="mobileBtns3HP">
+			<a href="mo_servlet.srv?hdnPageAction=CustomerNoticesTo"><span class="custntcBtn"></span><span class="btnText">Customer Notices</span><span class="listArrow"></span></a><div class="button_last"></div>
+        </div>
+		<div id="mobileBtns4HP">
+			<a href="mo_servlet.srv?hdnPageAction=StationInformationTo"><span class="stinfoBtn"></span><span class="btnText">Station and Park & Ride Info</span><span class="listArrow"></span></a><div class="button_last"></div>
+        </div>
+		<div id="mobileBtns6HP">
+            	<a href="mo_servlet.srv?hdnPageAction=SecurityTo">
+              	<span class="myLRBtn"></span>
+              	<span class="btnText">Security</span>
+              	<span class="listArrow"></span>
+            	</a><div class="button_last"></div>
+        </div>
+		</div>
+		
+		<div class="footerlinks" style="position:relative;text-align:center;width:100%;">
+			<a href="http://www.njtransit.com/hp/hp_servlet.srv?hdnPageAction=HomePageTo">Full HTML Site</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://njtransit.force.com/customerservice/ContactUsMobile">Contact Us</a>
+		</div>
+		
+		
+
+
+
+
+<div class="footer" style="text-align:center;position:relative;margin-right:auto;margin-left:auto; font-size: 95%; color: #5a7b9a;">Stay Connected: 
+		<img src="http://www.njtransit.com/images/spacer.gif" alt="" width="10" height="5" border="0">
+		<a href="http://www.twitter.com/NJ_TRANSIT" target="_blank"><img src="http://www.njtransit.com/images/social_t_small.gif"/></a>
+		<img src="http://www.njtransit.com/images/spacer.gif" alt="" width="10" height="5" border="0">
+		<a href="http://www.facebook.com/NJTRANSIT" target="_blank"><img src="http://www.njtransit.com/images/social_f_small.gif"/></a>
+		<img src="http://www.njtransit.com/images/spacer.gif" alt="" width="10" height="5" border="0">
+		<a href="http://www.youtube.com/TheNewJerseyTransit" target="_blank"><img src="http://www.njtransit.com/images/social_y_small.png"/></a>
+</div>
+<div class="footer" style="text-align:center;position:relative;margin-right:auto;margin-left:auto;">&copy; 2012 NJ TRANSIT, All Rights Reserved</div><br/>
+
+<script src="https://ssl.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-3154326-5";
+urchinTracker();
+</script>
+</body>
+</html>
+ 
