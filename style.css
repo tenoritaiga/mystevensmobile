@@ -1,14 +1,12 @@
-#main_interface
-{
-	position: relative;
-}
-
-#main_interface > section {
+#main_interface section {
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;
+	position: relative;
+	height: 40px;
+	background-color: silver; /* TODO: come up with proper gradient for this */
 }
 
 #logo {
@@ -20,24 +18,27 @@ background: -o-linear-gradient(left,  rgb(142,47,56) 8%,rgb(255,255,255) 99%); /
 background: -ms-linear-gradient(left,  rgb(142,47,56) 8%,rgb(255,255,255) 99%); /* IE10+ */
 background: linear-gradient(to right,  rgb(142,47,56) 8%,rgb(255,255,255) 99%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e2f38', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
-
 }
 
-#main_interface > section img
+#main_interface
 {
 	position: relative;
+}
+
+#main_interface section img
+{
+	position: absolute;
 	left: 0px;
 }
 
-#main_interface > section p
+#main_interface section p
 {
-	
-	position: relative;
-	left: 200px;
+	position: absolute;
+	left: 150px;
+	margin-top: 0px;
 }
 
-#main_interface > section .arrow
-{
-	position: relative;
+.arrow {
+	position: absolute;
 	right: 0px;
 }
