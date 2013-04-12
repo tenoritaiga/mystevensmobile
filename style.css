@@ -1,3 +1,8 @@
+#main_interface
+{
+	position: relative;
+}
+
 #main_interface > section {
 	-moz-border-radius: 15px;
 	border-radius: 15px;
@@ -16,4 +21,23 @@ background: -ms-linear-gradient(left,  rgb(255,255,255) 0%,rgb(144,0,15) 77%,rgb
 background: linear-gradient(to right,  rgb(255,255,255) 0%,rgb(144,0,15) 77%,rgb(109,0,25) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 */
 
+}
+
+#main_interface > section img
+{
+	position: relative;
+	left: 0px;
+}
+
+#main_interface > section p
+{
+	
+	position: relative;
+	left: 200px;
+}
+
+#main_interface > section .arrow
+{
+	position: relative;
+	right: 0px;
 }
