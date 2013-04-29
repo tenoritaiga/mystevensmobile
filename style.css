@@ -5,8 +5,8 @@
 	border-style: solid;
 	border-width: 1px;
 	position: relative;
-	height: 40px;
-	background-color: silver; /* TODO: come up with proper gradient for this */
+	height: 70px;
+	background-color: white;
 }
 
 #logo {
@@ -34,11 +34,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e2f38', end
 #main_interface section p
 {
 	position: absolute;
-	left: 150px;
-	margin-top: 0px;
+	left: 75px;
+	margin-top: 30px;
 }
 
 .arrow {
 	position: absolute;
 	right: 0px;
+	margin-right: 20px;
+	margin-top: 30px;
 }
